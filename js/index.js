@@ -1,3 +1,4 @@
+//logic for bmi
 let getButton = document.getElementById("btn__calculate");
 
 getButton.addEventListener("click", (e) => {
@@ -12,6 +13,7 @@ getButton.addEventListener("click", (e) => {
   let getHeightError = document.getElementById("heightError");
 
 
+  //is Data not null ? 
    getWeight == "" ? getWeightError.innerHTML = "wajib disii!" : getWeightError.innerHTML = "";
    getHeight == "" ? getHeightError.innerHTML = "wajib diisi!" :  getHeightError.innerHTML = "";
 

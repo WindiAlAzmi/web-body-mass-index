@@ -262,6 +262,10 @@ nav .btn-menu-mobile {
     overflow-x: hidden;
 }
 
+main #result #result__text {
+    width:100%;
+} 
+
 header {
     position: relative;
 }

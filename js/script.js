@@ -63,7 +63,7 @@ const ChangeProcess = (icon) => {
       break;
 
     case false:
-      processDataDarkMode.btnBMI();
+      processDataLightMode.btnBMI();
       processDataLightMode.navMobile();
       processDataLightMode.btnMenu();
       processDataLightMode.btnMode();
