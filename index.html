@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My page title</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div id="container__header">
+                    <a class="linkNav" href="/index.html">Home</a>
+                    <a class="linkNav" href="/portofolio.html">Portofolio</a>
+                    <a class="linkNav" href="/blog.html">Blog</a>
+                    <a class="linkNav" href="/about.html">About</a>
+                </div>
+                <div class="btn-menu-mobile">
+                    <img src="/assets/icons/menu-light.png" alt="icon-menu"  id="btn-menu"  width="50" height="50" />
+                </div>
+                <div id="container__nav__header__mobile">
+                    <div id="container__header__mobile" class="container__header__mobile"> 
+                        <img src="/assets/icons/cancel-light.png" alt="icon-cancel"  id="btn-cancel" width="30" height="30" />
+                        <a class="linkNav" href="/index.html">Home</a>
+                        <a class="linkNav" href="/portofolio.html">Portofolio</a>
+                        <a class="linkNav" href="/blog.html">Blog</a>
+                        <a class="linkNav" href="/about.html">About</a>
+                        <img src="/assets/icons/moon.png" alt="icon-mode"  id="btn-mode" class="btn-mode" width="50" height="50" />
+                    </div>
+                </div>
+            </nav>
+            <div id="toggle__mode">
+                <img src="/assets/icons/moon.png" alt="icon-mode"  id="btn-mode" class="btn-mode" width="50" height="50" />
+            </div>
+        </header>
+        <main>
+            <div id="introduction">
+                <h3>Check Your BMI</h3>
+                <h4>Enter your weight and height below to check your BMI results</h4>
+            </div>
+            <form id="form__container">
+               <div class="form__data">
+                    <label for="weight">Put your weight in here(KG)</label>
+                    <input type="number" placeholder="60" id="weight" name="weight" />
+                    <h5 id="weightError"></h5>
+               </div>
+               <div class="form__data">
+                    <label for="height">Put your height in here(CM)</label>
+                    <input type="number" placeholder="167" id="height" name="height" />
+                    <h5 id="heightError"></h5>
+                </div>
+                <div class="form__calculate">
+                    <button id="btn__calculate" class="btn__calculate">
+                        <h4>Calculate BMI</h4>
+                    </button>
+                </div>
+            </form>
+            <div id="result">
+                <div id="result__text">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h5>@2024 windi al azmi</h5>
+            <div class="socmed__icon">
+                <a href="https://wa.me/6285773941610" target="_blank">           
+                 <img id="wa" src="/assets/icons/socmed/wa-light.png" alt="wa-icon" width="40" height="40" />
+                </a>
+                <a href="https://www.linkedin.com/in/windialazmi/" target="_blank">
+                    <img id="linkedin" src="/assets/icons/socmed/linkedin-light.png" alt="linkedin-icon" width="40" height="40" />    
+                </a>       
+                <a href="https://github.com/WindiAlAzmi" target="_blank">
+                    <img  id="github" src="/assets/icons/socmed/github-light.png" alt="github-light.png-icon" width="40" height="40" />    
+                </a> 
+                <a href="https://t.me/mrra29" target="_blank">
+                    <img  id="telegram" src="/assets/icons/socmed/telegram-light.png" alt="telegram-light.png-icon" width="40" height="40" />    
+                </a> 
+            </div>
+        </footer>
+    </div class="container">
+    <script src="/js/index.js"  type="module" ></script>
+    <script src="/js/script.js" type="module"></script>
+
+</body>
+</html>
